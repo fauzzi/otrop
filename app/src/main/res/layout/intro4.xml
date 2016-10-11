@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:layout_weight="1"
+  android:fillViewport="false">
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginBottom="@dimen/large"
+      android:gravity="center"
+      android:text="Work Experience"
+      android:textAllCaps="true"
+      android:textColor="@android:color/black"
+      android:textSize="@dimen/normal"
+      android:textStyle="bold" />
+
+    <View
+      android:layout_width="match_parent"
+      android:layout_height="1dp"
+      android:background="@color/half_black" />
+
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginTop="@dimen/large"
+      android:gravity="center"
+      android:text="Feb 2011 - Feb 2016"
+      android:textAllCaps="true"
+      android:textSize="@dimen/normal"
+      android:textStyle="bold" />
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:gravity="center"
+      android:padding="@dimen/small"
+      android:text="PT. Labtech Penta International"
+      android:textAllCaps="true"
+      android:textSize="@dimen/normal"
+      android:textStyle="bold" />
+
+    <TextView
+      android:layout_marginTop="@dimen/large"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:gravity="center"
+      android:text="Feb 2016 - Present"
+      android:textAllCaps="true"
+      android:textSize="@dimen/normal"
+      android:textStyle="bold" />
+
+
+    <TextView
+      android:id="@+id/textView"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:gravity="center"
+      android:padding="@dimen/small"
+      android:text="PT. Dreamsmart Makmur Sejahtera"
+      android:textAllCaps="true"
+      android:textSize="@dimen/normal"
+      android:textStyle="bold" />
+
+  </LinearLayout>
+</FrameLayout>

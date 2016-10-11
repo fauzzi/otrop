@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="me.fauzi.portofiolio">
+
+  <application
+    android:name=".MainApplication"
+    android:allowBackup="true"
+    android:icon="@mipmap/ic_launcher"
+    android:label="@string/app_name"
+    android:supportsRtl="true"
+    android:theme="@style/AppTheme">
+    <activity android:name=".MainActivity" />
+    <activity android:name=".activity.SplashActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:name=".activity.IntroActivity" />
+    <activity
+      android:name=".activity.PossumActivity"
+      android:screenOrientation="landscape" />
+    <activity android:name=".activity.BuddyActivity" />
+    <activity
+      android:name=".activity.ApcActivity"
+      android:screenOrientation="landscape" />
+    <activity android:name=".activity.EspressoActivity" />
+    <activity android:name=".activity.BaristaActivity" />
+    <activity
+      android:name=".activity.IncidentReportingActivity"
+      android:screenOrientation="landscape" />
+    <activity android:name=".activity.MdxcessActivity" />
+    <activity android:name=".activity.AlamaakActivity" />
+
+  </application>
+
+
+</manifest>

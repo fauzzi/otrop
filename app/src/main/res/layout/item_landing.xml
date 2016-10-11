@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:layout_margin="@dimen/small"
+  android:foreground="?attr/selectableItemBackground">
+
+  <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/layout_rounded_white_border"
+    android:orientation="vertical"
+    android:padding="@dimen/small"
+    tools:ignore="UseCompoundDrawables,UselessParent">
+
+    <ImageView
+      android:id="@+id/icon"
+      android:layout_width="150dp"
+      android:layout_height="100dp"
+      android:layout_gravity="center"
+      android:contentDescription="@string/app_name"
+      android:paddingLeft="@dimen/small"
+      android:paddingRight="@dimen/small"
+      android:scaleType="centerCrop" />
+
+    <TextView
+      android:id="@+id/title"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:gravity="center"
+      android:text="Possum"
+      android:textAllCaps="false"
+      android:textColor="@android:color/background_dark"
+      android:textSize="@dimen/small" />
+
+  </LinearLayout>
+
+
+</FrameLayout>

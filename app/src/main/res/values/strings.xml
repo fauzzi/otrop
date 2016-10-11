@@ -1,0 +1,11 @@
+<resources>
+  <string name="app_name">Portfolio</string>
+  <string name="skip">Skip</string>
+  <string name="finish">Finish</string>
+  <string name="akhmad_fauzi_hasibuan">Akhmad Fauzi Hasibuan</string>
+  <string name="title">Title</string>
+  <string name="possum">Possum</string>
+  <string name="nutritionist_buddy">Nutritionist Buddy</string>
+  <string name="asian_pastry_cub">Asian Pastry Cup</string>
+  <string name="alamaak">Alamaak</string>
+</resources>

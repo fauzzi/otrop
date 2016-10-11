@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:layout_weight="1"
+  android:fillViewport="true">
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginBottom="@dimen/large"
+      android:gravity="center"
+      android:text="Educational Background"
+      android:textAllCaps="true"
+      android:textColor="@android:color/black"
+      android:textSize="@dimen/normal"
+      android:textStyle="bold" />
+
+    <View
+      android:layout_width="match_parent"
+      android:layout_height="1dp"
+      android:background="@color/half_black" />
+
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginTop="@dimen/large"
+      android:gravity="center"
+      android:text="2010"
+      android:textAllCaps="true"
+      android:textSize="@dimen/normal"
+      android:textStyle="bold" />
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:gravity="center"
+      android:padding="@dimen/small"
+      android:text="University Of Sumatera Utara"
+      android:textAllCaps="true"
+      android:textSize="@dimen/normal"
+      android:textStyle="bold" />
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:gravity="center"
+      android:text="Bachelor Degree In Math (Computer Science)"
+      android:textAllCaps="true"
+      android:textSize="@dimen/small"
+      android:textStyle="bold" />
+
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginTop="@dimen/normal"
+      android:gravity="center"
+      android:padding="@dimen/small"
+      android:text="2007"
+      android:textAllCaps="true"
+      android:textSize="@dimen/normal"
+      android:textStyle="bold" />
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:gravity="center"
+      android:text="University Of Riau"
+      android:textAllCaps="true"
+      android:textSize="@dimen/normal"
+      android:textStyle="bold" />
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:gravity="center"
+      android:text="Associate Degree in Computer and System Information "
+      android:textAllCaps="true"
+      android:textSize="@dimen/small"
+      android:textStyle="bold" />
+
+
+  </LinearLayout>
+
+</FrameLayout>

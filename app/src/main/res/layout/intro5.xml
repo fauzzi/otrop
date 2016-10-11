@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:layout_weight="1"
+  android:fillViewport="false">
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginBottom="@dimen/large"
+      android:gravity="center"
+      android:text="Work Skills"
+      android:textAllCaps="true"
+      android:textColor="@android:color/black"
+      android:textSize="@dimen/normal"
+      android:textStyle="bold" />
+
+    <View
+      android:layout_width="match_parent"
+      android:layout_height="1dp"
+      android:background="@color/half_black" />
+
+
+    <SeekBar
+      android:id="@+id/seekBar1"
+      android:layout_width="300dp"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentTop="true"
+      android:layout_marginTop="26dp"
+      android:progress="7"
+      android:max="10"/>
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginBottom="@dimen/large"
+      android:gravity="center"
+      android:text="Team Work"
+      android:textAllCaps="true"
+      android:textColor="@android:color/black"
+      android:textSize="@dimen/normal"
+      android:textStyle="bold" />
+
+    <SeekBar
+      android:progress="8"
+      android:id="@+id/seekBar2"
+      android:layout_width="300dp"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentTop="true"
+      android:layout_marginTop="26dp"
+      android:max="10"/>
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginBottom="@dimen/large"
+      android:gravity="center"
+      android:text="Individual Work"
+      android:textAllCaps="true"
+      android:textColor="@android:color/black"
+      android:textSize="@dimen/normal"
+      android:textStyle="bold" />
+
+    <SeekBar
+      android:progress="7"
+      android:id="@+id/seekBar3"
+      android:layout_width="300dp"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentTop="true"
+      android:layout_marginTop="26dp"
+      android:max="10"/>
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginBottom="@dimen/large"
+      android:gravity="center"
+      android:text="Communication"
+      android:textAllCaps="true"
+      android:textColor="@android:color/black"
+      android:textSize="@dimen/normal"
+      android:textStyle="bold" />
+
+    <SeekBar
+      android:progress="9"
+      android:id="@+id/seekBar4"
+      android:layout_width="300dp"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentTop="true"
+      android:layout_marginTop="26dp"
+      android:max="10"/>
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginBottom="@dimen/large"
+      android:gravity="center"
+      android:text="Spirit"
+      android:textAllCaps="true"
+      android:textColor="@android:color/black"
+      android:textSize="@dimen/normal"
+      android:textStyle="bold" />
+
+    <SeekBar
+      android:progress="8"
+      android:id="@+id/seekBar5"
+      android:layout_width="300dp"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentTop="true"
+      android:layout_marginTop="26dp"
+      android:max="10"/>
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginBottom="@dimen/large"
+      android:gravity="center"
+      android:text="Speed"
+      android:textAllCaps="true"
+      android:textColor="@android:color/black"
+      android:textSize="@dimen/normal"
+      android:textStyle="bold"
+      android:id="@+id/textView2" />
+
+  </LinearLayout>
+</FrameLayout>
